@@ -7,7 +7,16 @@ body {
 /* CSS for Hero.jsx */
 
 
+.hero .row img {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    width: 999.93px;
+    height: 362.4;
 
+    margin-bottom: 60px;
+}
 
 /* CSS for Awards.jsx */
 
