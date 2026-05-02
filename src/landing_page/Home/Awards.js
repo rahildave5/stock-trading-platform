@@ -47,9 +47,9 @@ function Awards() {
                         </p>
                     </div>
                     <div className="press">
-                        <a href='/media'>
+                        <div>
                             <img src={pressLogos} alt="Press Logos" />
-                        </a>
+                        </div>
                     </div>
                 </div>
 
