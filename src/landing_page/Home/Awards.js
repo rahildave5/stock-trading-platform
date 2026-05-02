@@ -1,6 +1,7 @@
 import React from 'react'
-import ecosystem from '../../../../images/ecosystem.png'
-import pressLogos from '../../../../images/pressLogos.png'
+
+const ecosystem = 'https://zerodha.com/static/images/ecosystem.png';
+const pressLogos = 'https://zerodha.com/static/images/press-logos.png';
 
 function Awards() {
     return (
