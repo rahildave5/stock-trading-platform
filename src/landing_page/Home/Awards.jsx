@@ -1,6 +1,6 @@
 import React from 'react'
 import ecosystem from '../../../../images/ecosystem.png'
-
+import pressLogos from '../../../../images/pressLogos.png'
 
 function Awards() {
     return (
@@ -45,8 +45,13 @@ function Awards() {
                             <a href="/" style={{ margin: '0 0 0 24px' }}>Try Kite demo <i class="fa-solid fa-arrow-right"></i></a>
                         </p>
                     </div>
-
+                    <div className="press">
+                        <a href='/media'>
+                            <img src={pressLogos} alt="Press Logos" />
+                        </a>
+                    </div>
                 </div>
+
             </div>
         </section>
     );

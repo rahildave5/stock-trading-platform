@@ -6,7 +6,6 @@ body {
 
 /* CSS for Hero.jsx */
 
-
 .hero .row img {
     display: inline-flex;
     align-items: center;
@@ -16,6 +15,15 @@ body {
     height: 362.4;
 
     margin-bottom: 60px;
+}
+
+.hero .row h1 {
+    font-size: 28px;
+}
+
+.hero .row p {
+    font-size: 20px;
+    margin: 10px 0 15px;
 }
 
 /* CSS for Awards.jsx */
@@ -87,4 +95,24 @@ body {
     vertical-align: middle;
     color: #387ed1;
     box-sizing: border-box;
+}
+
+.ecosystem .text-center a:hover {
+    color: #000000;
+}
+
+.ecosystem .press {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.ecosystem .press img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+}
+
+.ecosystem .press img:hover {
+    opacity: 0.8;
 }
