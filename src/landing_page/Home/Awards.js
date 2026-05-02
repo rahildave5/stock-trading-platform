@@ -41,8 +41,8 @@ function Awards() {
                             <img className='awards-img' src={ecosystem} alt="Ecosystem" />
                         </div>
                         <p className='text-center' style={{ margin: '16px 0 15px' }}>
-                            <a href="/">Explore our demo <i class="fa-solid fa-arrow-right"></i></a>
-                            <a href="/" style={{ margin: '0 0 0 24px' }}>Try Kite demo <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="/">Explore our demo <i className="fa-solid fa-arrow-right"></i></a>
+                            <a href="/" style={{ margin: '0 0 0 24px' }}>Try Kite demo <i className="fa-solid fa-arrow-right"></i></a>
                         </p>
                     </div>
                     <div className="press">
