@@ -175,3 +175,44 @@ body {
     font-size: 14.4px;
     margin-right: 30px;
 }
+
+/* CSS for Footer.jsx */
+
+.footer .footer-link {
+    display: block;
+    margin-bottom: 14px;
+    text-decoration: none;
+    color: #666;
+}
+
+.footer .footer-link:hover {
+    color: #387ed1;
+}
+
+
+.container a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #424242; 
+}
+
+
+.zero-info p{
+    font-size: 10.4px;
+    color: #9b9b9b;
+}
+
+.zero-info a{
+    font-size: 10.4px;
+    color: #387ed1;
+}
+
+.homeEnd a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
+.homeEnd a:hover{
+    color: #387ed1;
+}
