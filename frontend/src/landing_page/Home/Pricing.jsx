@@ -5,10 +5,7 @@ import pricing2 from "../../../../images/pricing20.svg";
 
 function Pricing() {
   return (
-    <section
-      className="pricing"
-      style={{ paddingBottom: "120px", paddingTop: "100px" }}
-    >
+    <section className="pricing" style={{ paddingBottom: "120px" }}>
       <div className="container">
         <div className="row">
           <div className="col-5">

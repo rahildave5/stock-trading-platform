@@ -3,12 +3,12 @@ import homeHeroImage from "../../../../images/homeHero.png";
 
 function Hero() {
   return (
-    <section className="hero" style={{ paddingBottom: "70px" }}>
-      <div className="container p-5">
+    <section className="hero" style={{ paddingBottom: "120px" }}>
+      <div className="container ">
         <div className="row text-center">
           <img
-            className="mb-5"
-            style={{ marginLeft: "135px" }}
+            className="mb-4"
+            style={{ marginLeft: "175px", paddingTop: "60px" }}
             src={homeHeroImage}
             alt="Hero Image"
           />
