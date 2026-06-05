@@ -4,11 +4,11 @@ body {
     
 }
 
-*h2 {
+h2 {
     color: #424242;
 }
 
-*p{
+p{
     color: #424242;
 }
 
@@ -22,7 +22,7 @@ body {
     width: 999.93px;
     height: 362.4;
 
-    margin-bottom: 60px;
+    
 }
 
 .hero .row h1 {
@@ -37,7 +37,7 @@ body {
 /* CSS for Stats.jsx */
 
 .ecosystem {
-    margin-top: 30px;
+
     padding: 0 20px 50px;
 }
 
@@ -118,7 +118,7 @@ body {
 /* CSS for Pricing.jsx */
 
 .pricing {
-    padding: 50px 150px;
+    padding: 0px 150px;
 }
 
 .pricing .col-5 a{

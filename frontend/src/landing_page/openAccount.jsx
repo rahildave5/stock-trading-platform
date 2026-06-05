@@ -2,7 +2,7 @@ import React from "react";
 
 function OpenAccount() {
   return (
-    <section className="OpenAccount" style={{ paddingBottom: "70px" }}>
+    <section className="OpenAccount" style={{ paddingBottom: "120px" }}>
       <div className="container">
         <div className="row text-center">
           <h1 className="mt-4 fs-4">Open a Zerodha account</h1>
