@@ -1,111 +1,118 @@
-:root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
-
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
-
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
-  color-scheme: light dark;
-  color: var(--text);
-  background: var(--bg);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
-
-  #social .button-icon {
-    filter: invert(1) brightness(2);
-  }
-}
-
 body {
-  margin: 0;
+    margin: 0;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #1a1a1a;
 }
 
-#root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
+/* CSS for Hero.jsx */
+
+.hero .row img {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    width: 999.93px;
+    height: 362.4;
+
+    margin-bottom: 60px;
 }
 
-h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
+.hero .row h1 {
+    font-size: 28px;
 }
 
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
-}
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
+.hero .row p {
     font-size: 20px;
-  }
-}
-p {
-  margin: 0;
+    margin: 10px 0 15px;
 }
 
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
+/* CSS for Awards.jsx */
+
+.ecosystem {
+    margin-top: 30px;
+    padding: 0 20px 120px;
 }
 
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
+.ecosystem .row {
+    align-items: flex-start;
+}
+
+.awards-copy {
+
+    padding-left: 80px;
+    max-width: 520px;
+}
+
+.awards-heading {
+    margin: 0 0 40px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #000000;
+}
+
+.z-functions {
+    margin-bottom: 34px;
+}
+
+.z-functions h3 {
+    margin: 0 0 10px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #000000;
+}
+
+.why-us p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #5f6c7b;
+}
+
+.why-us a {
+    color: #387ed1;
+    text-decoration: none;
+}
+
+.why-us a:hover {
+    text-decoration: underline;
+}
+
+.awards-img {
+    width: 623.33px;
+    height: auto;
+}
+
+.ecosystem .text-center a {
+    text-decoration: none;
+}
+
+.ecosystem .text-center a .fa-solid.fa-arrow-right {
+    width: 16px;
+    height: 16px;
+    margin: 0 6px;
+    line-height: 1;
+    font-size: 12px;
+    vertical-align: middle;
+    color: #387ed1;
+    box-sizing: border-box;
+}
+
+.ecosystem .text-center a:hover {
+    color: #000000;
+}
+
+.ecosystem .press {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.ecosystem .press img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+}
+
+.ecosystem .press img:hover {
+    opacity: 0.8;
 }
