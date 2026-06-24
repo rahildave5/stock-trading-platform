@@ -34,6 +34,13 @@ p{
     margin: 10px 0 15px;
 }
 
+/*CSS for History.jsx */
+section.History {
+  max-width: 900px;
+  
+  text-align: left;
+}
+
 /* CSS for Stats.jsx */
 
 .ecosystem {
