@@ -19,7 +19,7 @@ function Hero() {
               href="/investments"
               style={{ color: "#387ED1" }}
             >
-              investment offerings <i class="fa-solid fa-arrow-right"></i>
+              investment offerings <i className="fa-solid fa-arrow-right"></i>
             </a>{" "}
           </p>
         </div>
