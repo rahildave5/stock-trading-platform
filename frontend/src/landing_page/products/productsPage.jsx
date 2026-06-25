@@ -7,6 +7,7 @@ import Varsity from "../products/varsity.jsx";
 import Blog from "../products/blog.jsx";
 import Partners from "../products/partners.jsx";
 import Signup from "../products/signup.jsx";
+import Universe from "./Universe.jsx";
 
 function Products() {
   return (
@@ -18,7 +19,7 @@ function Products() {
       <Connect />
       <Varsity />
       <Blog />
-      <Partners />
+      <Universe />
       <Signup />
     </>
   );
