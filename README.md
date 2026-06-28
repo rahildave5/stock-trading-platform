@@ -1,0 +1,1 @@
+A full-stack fintech web application that clones the core functionalities of Zerodha's popular trading platform, Kite. This platform allows users to track real-time stock prices, manage a virtual portfolio, analyze charts, and execute mock trades in a seamless, minimalist interface.
