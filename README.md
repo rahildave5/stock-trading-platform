@@ -8,4 +8,11 @@ Secure signup and login using JWT (JSON Web Tokens) or OAuth.
 
 Two-factor authentication (2FA) simulation (e.g., TOTP or PIN) mimicking Kite's login flow.
 
+2. Real-Time Dashboard & Watchlist
+Dynamic, real-time stock price streaming using WebSockets.
+
+Personalized watchlists where users can add, remove, and track their favorite tickers.
+
+Live search bar with auto-suggest for stocks and indices (NIFTY 50, SENSEX).
+
 > Disclaimer: This project is for educational purposes only and is not affiliated with, endorsed by, or connected to Zerodha or Kite.
