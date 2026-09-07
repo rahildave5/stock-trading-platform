@@ -24,4 +24,3 @@ Real-Time Updates
 
 Socket.io / WebSockets
 
-- -> Disclaimer: *repository is incomplete!*
